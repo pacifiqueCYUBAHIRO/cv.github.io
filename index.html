@@ -15,7 +15,7 @@
 			<div class="imgBx">
 				<img src="picture.jpeg">
 			</div>
-			<h2>Pacifique CYUBAHIRO<br>Web Developer</h2>
+			<h2 onclick="myFunc()" id="demo">Pacifique CYUBAHIRO<br>Web Developer</h2>
 		<div class="contactInfo">
 			<h3 class="title">Contact Info</h3>
 			<ul>
@@ -164,5 +164,10 @@ Which empowering Rwandan nationals to become world-class engineers.</p>
 	</div>
 </div>
 </div>
+		<script>
+	function myFunc(){
+		document.getElementById("demo").style.color = "blue";
+	}
+</script>
 </body>
 </html>
