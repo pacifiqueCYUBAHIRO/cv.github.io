@@ -181,7 +181,8 @@ margin-bottom: 10px;
 p
 {
 	color: black;
-	font-size: 18px;
+	font-size: 20px;
+	font-family: Times New Roman;
 }
 
 .about .box
@@ -199,8 +200,9 @@ p
 .about .box .year_company h5
 {
 	text-transform: uppercase;
-	color: #848c90;
-	font-weight: 600;
+	color: #000000;
+	font-weight: 600px;
+	font-size: 15px;
 
 }
 .about .box .text h4
@@ -223,8 +225,8 @@ font-size: 16px;
 .skills .box h4
 {
 	text-transform: uppercase;
-	color: #848c99;
-	font-weight: 500;
+	color: #000000;
+	font-weight: 500px;
 
 } 
 .skills .box .percent
